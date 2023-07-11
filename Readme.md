@@ -1,11 +1,12 @@
 ## Rest Countries API
 
-![Desktop image](src\assets\desktop-img.jpg)
+![desktop-img](https://github.com/ReisLuizito/rest-countries-api/assets/131827303/317f09e8-5483-4d07-af76-43b8fbcfe4e8)
 
 # Code Applied
 
 1. Hooks:
     1.useEffect()
+
     2. useState()
 2. Custom Hooks:
     1. useFetch() : used to fetch data from an API.
