@@ -1,0 +1,84 @@
+/* **********     Reset CSS     ********** */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+
+    /* theme 1 */
+    --bg-color: hsl(0, 0%, 98%);
+    --bg-color-element: hsl(0, 0%, 100%);
+    --text-color-input: hsl(0, 0%, 52%);
+    --text-color: hsl(200, 15%, 8%);
+    --icon-bg: brightness(100%);
+    --font: 'Nunito Sans', sans-serif;
+    --shadow: 0px 0px 15px -6px rgba(0, 0, 0, 0.4);
+    --shadow: 0px 0px 15px -6px rgba(0, 0, 0, 0.4);
+      
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button {
+    font-family: var(--font);
+    border: none;
+    appearance: none;
+    background-color: transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    margin-block: 0;
+    font-weight: 400;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main {
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.container-spinner {
+    display: flex;
+    justify-content: center;
+}
